@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Levis.master.cs" Inherits="levis01.Levis" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <link href="Masterlevis.css" rel="stylesheet" />
+    
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <div class="header">
+        <h1>Student Portal</h1>
+    </div>
+    <div class="nav">
+      <ul>
+          <li><a href="#">Home|</a></li>
+          <li><a href="#">About us|</a></li>
+          <li><a href="#">Login|</a></li>
+          <li><a href="#">Create Account|</a></li>
+      </ul>
+    </div>
+    <div class="aside">
+        Quicklinks
+    </div>
+    <div class="section">
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+        </div>
+    <div class="footer">
+         <ul>
+          <li><a href="#">Home|</a></li>
+          <li><a href="#">About us|</a></li>
+          <li><a href="#">Login|</a></li>
+          <li><a href="#">Create Account|</a></li>
+      </ul>
+        <p>&copy;2021.All Rights Reserved</p>
+    </div>
+</body>
+</html>
+
